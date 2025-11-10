@@ -1,0 +1,9 @@
+C:\Development\Assessment_CT\OpenWeather\OpenWeather\obj\Debug\OpenWeather.csproj.AssemblyReference.cache
+C:\Development\Assessment_CT\OpenWeather\OpenWeather\obj\Debug\OpenWeather.csproj.CoreCompileInputs.cache
+C:\Development\Assessment_CT\OpenWeather\OpenWeather\bin\Debug\OpenWeather.dll
+C:\Development\Assessment_CT\OpenWeather\OpenWeather\bin\Debug\OpenWeather.pdb
+C:\Development\Assessment_CT\OpenWeather\OpenWeather\bin\Debug\Newtonsoft.Json.dll
+C:\Development\Assessment_CT\OpenWeather\OpenWeather\bin\Debug\Newtonsoft.Json.xml
+C:\Development\Assessment_CT\OpenWeather\OpenWeather\obj\Debug\OpenWeather.csproj.CopyComplete
+C:\Development\Assessment_CT\OpenWeather\OpenWeather\obj\Debug\OpenWeather.dll
+C:\Development\Assessment_CT\OpenWeather\OpenWeather\obj\Debug\OpenWeather.pdb

@@ -1,0 +1,6 @@
+C:\Development\Assessment_CT\MultiThread\MultiThreadCalculator\bin\Debug\MultiThreadCalculator.dll
+C:\Development\Assessment_CT\MultiThread\MultiThreadCalculator\bin\Debug\MultiThreadCalculator.pdb
+C:\Development\Assessment_CT\MultiThread\MultiThreadCalculator\obj\Debug\MultiThreadCalculator.csproj.AssemblyReference.cache
+C:\Development\Assessment_CT\MultiThread\MultiThreadCalculator\obj\Debug\MultiThreadCalculator.csproj.CoreCompileInputs.cache
+C:\Development\Assessment_CT\MultiThread\MultiThreadCalculator\obj\Debug\MultiThreadCalculator.dll
+C:\Development\Assessment_CT\MultiThread\MultiThreadCalculator\obj\Debug\MultiThreadCalculator.pdb

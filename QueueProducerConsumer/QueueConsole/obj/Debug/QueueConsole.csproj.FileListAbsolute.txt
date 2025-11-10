@@ -1,0 +1,10 @@
+C:\Development\Assessment_CT\QueueProducerConsumer\QueueConsole\bin\Debug\QueueConsole.exe.config
+C:\Development\Assessment_CT\QueueProducerConsumer\QueueConsole\bin\Debug\QueueConsole.exe
+C:\Development\Assessment_CT\QueueProducerConsumer\QueueConsole\bin\Debug\QueueConsole.pdb
+C:\Development\Assessment_CT\QueueProducerConsumer\QueueConsole\bin\Debug\QueueProducerConsumer.dll
+C:\Development\Assessment_CT\QueueProducerConsumer\QueueConsole\bin\Debug\QueueProducerConsumer.pdb
+C:\Development\Assessment_CT\QueueProducerConsumer\QueueConsole\obj\Debug\QueueConsole.csproj.AssemblyReference.cache
+C:\Development\Assessment_CT\QueueProducerConsumer\QueueConsole\obj\Debug\QueueConsole.csproj.CoreCompileInputs.cache
+C:\Development\Assessment_CT\QueueProducerConsumer\QueueConsole\obj\Debug\QueueConsole.csproj.CopyComplete
+C:\Development\Assessment_CT\QueueProducerConsumer\QueueConsole\obj\Debug\QueueConsole.exe
+C:\Development\Assessment_CT\QueueProducerConsumer\QueueConsole\obj\Debug\QueueConsole.pdb

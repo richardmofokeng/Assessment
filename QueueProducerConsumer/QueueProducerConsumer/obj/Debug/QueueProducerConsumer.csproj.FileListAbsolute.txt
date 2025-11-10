@@ -1,0 +1,5 @@
+C:\Development\Assessment_CT\QueueProducerConsumer\QueueProducerConsumer\obj\Debug\QueueProducerConsumer.csproj.CoreCompileInputs.cache
+C:\Development\Assessment_CT\QueueProducerConsumer\QueueProducerConsumer\bin\Debug\QueueProducerConsumer.dll
+C:\Development\Assessment_CT\QueueProducerConsumer\QueueProducerConsumer\bin\Debug\QueueProducerConsumer.pdb
+C:\Development\Assessment_CT\QueueProducerConsumer\QueueProducerConsumer\obj\Debug\QueueProducerConsumer.dll
+C:\Development\Assessment_CT\QueueProducerConsumer\QueueProducerConsumer\obj\Debug\QueueProducerConsumer.pdb
