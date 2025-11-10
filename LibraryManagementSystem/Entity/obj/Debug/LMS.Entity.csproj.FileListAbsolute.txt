@@ -1,0 +1,12 @@
+C:\Development\Assessment_CT\LibraryManagementSystem\Entity\bin\Debug\Entity.dll.config
+C:\Development\Assessment_CT\LibraryManagementSystem\Entity\bin\Debug\Entity.dll
+C:\Development\Assessment_CT\LibraryManagementSystem\Entity\bin\Debug\Entity.pdb
+C:\Development\Assessment_CT\LibraryManagementSystem\Entity\bin\Debug\EntityFramework.dll
+C:\Development\Assessment_CT\LibraryManagementSystem\Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Development\Assessment_CT\LibraryManagementSystem\Entity\bin\Debug\EntityFramework.xml
+C:\Development\Assessment_CT\LibraryManagementSystem\Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Development\Assessment_CT\LibraryManagementSystem\Entity\obj\Debug\LMS.Entity.csproj.AssemblyReference.cache
+C:\Development\Assessment_CT\LibraryManagementSystem\Entity\obj\Debug\LMS.Entity.csproj.CoreCompileInputs.cache
+C:\Development\Assessment_CT\LibraryManagementSystem\Entity\obj\Debug\LMS.Entity.csproj.Up2Date
+C:\Development\Assessment_CT\LibraryManagementSystem\Entity\obj\Debug\Entity.dll
+C:\Development\Assessment_CT\LibraryManagementSystem\Entity\obj\Debug\Entity.pdb

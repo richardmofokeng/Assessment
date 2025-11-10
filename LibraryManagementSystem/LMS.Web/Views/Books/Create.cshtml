@@ -1,0 +1,39 @@
+﻿@model LMS.Model.BookModel
+@{
+    ViewData["Title"] = "Add Book";
+}
+
+<h1>Add Book</h1>
+
+
+@using (Html.BeginForm("Create", "Books", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Title, new { @class = "form-label" })
+        @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Title, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Author, new { @class = "form-label" })
+        @Html.TextBoxFor(m => m.Author, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Author, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.ISBN, new { @class = "form-label" })
+        @Html.TextBoxFor(m => m.ISBN, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.ISBN, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.PublicationYear, new { @class = "form-label" })
+        @Html.TextBoxFor(m => m.PublicationYear, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.PublicationYear, "", new { @class = "text-danger" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    @Html.ActionLink("Back", "Index", null, new { @class = "btn btn-secondary" })
+}
+

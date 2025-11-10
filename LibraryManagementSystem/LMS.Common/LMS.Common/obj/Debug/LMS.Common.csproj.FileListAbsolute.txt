@@ -1,0 +1,6 @@
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Common\LMS.Common\bin\Debug\LMS.Common.dll
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Common\LMS.Common\bin\Debug\LMS.Common.pdb
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Common\LMS.Common\obj\Debug\LMS.Common.csproj.AssemblyReference.cache
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Common\LMS.Common\obj\Debug\LMS.Common.csproj.CoreCompileInputs.cache
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Common\LMS.Common\obj\Debug\LMS.Common.dll
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Common\LMS.Common\obj\Debug\LMS.Common.pdb

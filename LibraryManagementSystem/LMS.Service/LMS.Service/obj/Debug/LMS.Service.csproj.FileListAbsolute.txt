@@ -1,0 +1,9 @@
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Service\LMS.Service\bin\Debug\LMS.Service.dll
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Service\LMS.Service\bin\Debug\LMS.Service.pdb
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Service\LMS.Service\bin\Debug\LMS.Model.dll
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Service\LMS.Service\bin\Debug\LMS.Model.pdb
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Service\LMS.Service\obj\Debug\LMS.Service.csproj.AssemblyReference.cache
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Service\LMS.Service\obj\Debug\LMS.Service.csproj.CoreCompileInputs.cache
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Service\LMS.Service\obj\Debug\LMS.Serv.DC454ACD.Up2Date
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Service\LMS.Service\obj\Debug\LMS.Service.dll
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Service\LMS.Service\obj\Debug\LMS.Service.pdb

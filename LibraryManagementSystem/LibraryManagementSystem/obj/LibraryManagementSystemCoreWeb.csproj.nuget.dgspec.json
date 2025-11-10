@@ -1,0 +1,486 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystemCoreWeb.csproj": {}
+  },
+  "projects": {
+    "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Common\\LMS.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Common\\LMS.Common.csproj",
+        "projectName": "LMS.Common",
+        "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Common\\LMS.Common.csproj",
+        "packagesPath": "C:\\Users\\c710561\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\c710561\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\LMS.Entity.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\LMS.Entity.csproj",
+        "projectName": "LMS.Entity",
+        "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\LMS.Entity.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\LMS.Framework.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\LMS.Framework.csproj",
+        "projectName": "LMS.Framework",
+        "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\LMS.Framework.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\LMS.Entity.csproj": {
+                "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\LMS.Entity.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystemCoreWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystemCoreWeb.csproj",
+        "projectName": "LibraryManagementSystemCoreWeb",
+        "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystemCoreWeb.csproj",
+        "packagesPath": "C:\\Users\\c710561\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LibraryManagementSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\c710561\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Business\\LMS.Business.csproj": {
+                "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Business\\LMS.Business.csproj"
+              },
+              "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Services\\LMS.Services.csproj": {
+                "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Services\\LMS.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Business\\LMS.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Business\\LMS.Business.csproj",
+        "projectName": "LMS.Business",
+        "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Business\\LMS.Business.csproj",
+        "packagesPath": "C:\\Users\\c710561\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\c710561\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Logic\\LMS.Logic.csproj": {
+                "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Logic\\LMS.Logic.csproj"
+              },
+              "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Services\\LMS.Services.csproj": {
+                "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Services\\LMS.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Logic\\LMS.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Logic\\LMS.Logic.csproj",
+        "projectName": "LMS.Logic",
+        "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Logic\\LMS.Logic.csproj",
+        "packagesPath": "C:\\Users\\c710561\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\c710561\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Common\\LMS.Common.csproj": {
+                "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Common\\LMS.Common.csproj"
+              },
+              "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\LMS.Entity.csproj": {
+                "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\LMS.Entity.csproj"
+              },
+              "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\LMS.Framework.csproj": {
+                "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\LMS.Framework.csproj"
+              },
+              "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Models\\LMS.Models.csproj": {
+                "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Models\\LMS.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Models\\LMS.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Models\\LMS.Models.csproj",
+        "projectName": "LMS.Models",
+        "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Models\\LMS.Models.csproj",
+        "packagesPath": "C:\\Users\\c710561\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\c710561\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Services\\LMS.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Services\\LMS.Services.csproj",
+        "projectName": "LMS.Services",
+        "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Services\\LMS.Services.csproj",
+        "packagesPath": "C:\\Users\\c710561\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\c710561\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Models\\LMS.Models.csproj": {
+                "projectPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Models\\LMS.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

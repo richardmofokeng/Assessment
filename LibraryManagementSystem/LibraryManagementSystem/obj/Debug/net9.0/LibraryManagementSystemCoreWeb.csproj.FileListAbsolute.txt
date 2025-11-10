@@ -1,0 +1,9 @@
+C:\Development\Assessment_CT\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net9.0\LibraryManagementSystemCoreWeb.csproj.AssemblyReference.cache
+C:\Development\Assessment_CT\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Development\Assessment_CT\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net9.0\LibraryManagementSystemCoreWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\Assessment_CT\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net9.0\LibraryManagementSystemCoreWeb.AssemblyInfoInputs.cache
+C:\Development\Assessment_CT\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net9.0\LibraryManagementSystemCoreWeb.AssemblyInfo.cs
+C:\Development\Assessment_CT\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net9.0\LibraryManagementSystemCoreWeb.csproj.CoreCompileInputs.cache
+C:\Development\Assessment_CT\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net9.0\LibraryManagementSystemCoreWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Development\Assessment_CT\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net9.0\LibraryManagementSystemCoreWeb.RazorAssemblyInfo.cache
+C:\Development\Assessment_CT\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net9.0\LibraryManagementSystemCoreWeb.RazorAssemblyInfo.cs

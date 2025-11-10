@@ -1,0 +1,15 @@
+C:\Development\Assessment_CT\LibraryManagementSystem\Framework\bin\Debug\LeaveSystem.Framework.dll.config
+C:\Development\Assessment_CT\LibraryManagementSystem\Framework\bin\Debug\LeaveSystem.Framework.dll
+C:\Development\Assessment_CT\LibraryManagementSystem\Framework\bin\Debug\LeaveSystem.Framework.pdb
+C:\Development\Assessment_CT\LibraryManagementSystem\Framework\bin\Debug\Entity.dll
+C:\Development\Assessment_CT\LibraryManagementSystem\Framework\bin\Debug\EntityFramework.dll
+C:\Development\Assessment_CT\LibraryManagementSystem\Framework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Development\Assessment_CT\LibraryManagementSystem\Framework\bin\Debug\Entity.pdb
+C:\Development\Assessment_CT\LibraryManagementSystem\Framework\bin\Debug\Entity.dll.config
+C:\Development\Assessment_CT\LibraryManagementSystem\Framework\bin\Debug\EntityFramework.xml
+C:\Development\Assessment_CT\LibraryManagementSystem\Framework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Development\Assessment_CT\LibraryManagementSystem\Framework\obj\Debug\LMS.Framework.csproj.AssemblyReference.cache
+C:\Development\Assessment_CT\LibraryManagementSystem\Framework\obj\Debug\LMS.Framework.csproj.CoreCompileInputs.cache
+C:\Development\Assessment_CT\LibraryManagementSystem\Framework\obj\Debug\LMS.Fram.0A794AB9.Up2Date
+C:\Development\Assessment_CT\LibraryManagementSystem\Framework\obj\Debug\LeaveSystem.Framework.dll
+C:\Development\Assessment_CT\LibraryManagementSystem\Framework\obj\Debug\LeaveSystem.Framework.pdb

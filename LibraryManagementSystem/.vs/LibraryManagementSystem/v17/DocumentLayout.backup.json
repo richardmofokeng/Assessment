@@ -1,0 +1,487 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C90B4158-A2CF-45A3-9B77-AE912BDABC6A}|LMS.Logic\\LMS.Logic\\LMS.Logic.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\lms.logic\\lms.logic\\booklogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C90B4158-A2CF-45A3-9B77-AE912BDABC6A}|LMS.Logic\\LMS.Logic\\LMS.Logic.csproj|solutionrelative:lms.logic\\lms.logic\\booklogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\lms.web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|solutionrelative:lms.web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\lms.web\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|solutionrelative:lms.web\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\lms.web\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|solutionrelative:lms.web\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\lms.web\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|solutionrelative:lms.web\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D84ABA93-4ECB-4A28-AA7E-7EEF4FA50108}|LMS.Common\\LMS.Common\\LMS.Common.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\lms.common\\lms.common\\dtotools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D84ABA93-4ECB-4A28-AA7E-7EEF4FA50108}|LMS.Common\\LMS.Common\\LMS.Common.csproj|solutionrelative:lms.common\\lms.common\\dtotools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57F0D57-B58F-4587-8376-3D9022A909E9}|LMS.Service\\LMS.Service\\LMS.Service.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\lms.service\\lms.service\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57F0D57-B58F-4587-8376-3D9022A909E9}|LMS.Service\\LMS.Service\\LMS.Service.csproj|solutionrelative:lms.service\\lms.service\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61693701-CD64-4A57-B1E5-892F9DFD029A}|LMS.Business\\LMS.Business\\LMS.Business.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\lms.business\\lms.business\\bookbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61693701-CD64-4A57-B1E5-892F9DFD029A}|LMS.Business\\LMS.Business\\LMS.Business.csproj|solutionrelative:lms.business\\lms.business\\bookbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E87A1F1-AC2A-49B9-B2E3-B9E016102247}|LMS.Model\\LMS.Model\\LMS.Model.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\lms.model\\lms.model\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E87A1F1-AC2A-49B9-B2E3-B9E016102247}|LMS.Model\\LMS.Model\\LMS.Model.csproj|solutionrelative:lms.model\\lms.model\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\lms.web\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|solutionrelative:lms.web\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8EA8A9-30C2-45A3-A322-6143DF1D3B24}|Entity\\LMS.Entity.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\entity\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD8EA8A9-30C2-45A3-A322-6143DF1D3B24}|Entity\\LMS.Entity.csproj|solutionrelative:entity\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8EA8A9-30C2-45A3-A322-6143DF1D3B24}|Entity\\LMS.Entity.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\entity\\lmsmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{BD8EA8A9-30C2-45A3-A322-6143DF1D3B24}|Entity\\LMS.Entity.csproj|solutionrelative:entity\\lmsmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\lms.web\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|solutionrelative:lms.web\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8EA8A9-30C2-45A3-A322-6143DF1D3B24}|Entity\\LMS.Entity.csproj|C:\\Development\\Assessment_CT\\LibraryManagementSystem\\entity\\lmsmodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD8EA8A9-30C2-45A3-A322-6143DF1D3B24}|Entity\\LMS.Entity.csproj|solutionrelative:entity\\lmsmodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\lms.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|solutionrelative:lms.web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8EA8A9-30C2-45A3-A322-6143DF1D3B24}|Entity\\LMS.Entity.csproj|C:\\Development\\Assessment_CT\\LibraryManagementSystem\\entity\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BD8EA8A9-30C2-45A3-A322-6143DF1D3B24}|Entity\\LMS.Entity.csproj|solutionrelative:entity\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{755CC348-B1F9-4100-9F56-30692E48437E}|Framework\\LMS.Framework.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\framework\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755CC348-B1F9-4100-9F56-30692E48437E}|Framework\\LMS.Framework.csproj|solutionrelative:framework\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\lms.web\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|solutionrelative:lms.web\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\lms.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B284EAB9-44AC-4269-8F7C-3F247B49B719}|LMS.Web\\LMS.Web.csproj|solutionrelative:lms.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8EA8A9-30C2-45A3-A322-6143DF1D3B24}|Entity\\LMS.Entity.csproj|c:\\development\\assessment_ct\\librarymanagementsystem\\entity\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BD8EA8A9-30C2-45A3-A322-6143DF1D3B24}|Entity\\LMS.Entity.csproj|solutionrelative:entity\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{755CC348-B1F9-4100-9F56-30692E48437E}|Framework\\Framework.csproj|C:\\Development\\Assessment_CT\\LibraryManagementSystem\\framework\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755CC348-B1F9-4100-9F56-30692E48437E}|Framework\\Framework.csproj|solutionrelative:framework\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{755CC348-B1F9-4100-9F56-30692E48437E}|Framework\\Framework.csproj|C:\\Development\\Assessment_CT\\LibraryManagementSystem\\framework\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755CC348-B1F9-4100-9F56-30692E48437E}|Framework\\Framework.csproj|solutionrelative:framework\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{755CC348-B1F9-4100-9F56-30692E48437E}|Framework\\Framework.csproj|C:\\Development\\Assessment_CT\\LibraryManagementSystem\\framework\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755CC348-B1F9-4100-9F56-30692E48437E}|Framework\\Framework.csproj|solutionrelative:framework\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{755CC348-B1F9-4100-9F56-30692E48437E}|Framework\\Framework.csproj|C:\\Development\\Assessment_CT\\LibraryManagementSystem\\framework\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755CC348-B1F9-4100-9F56-30692E48437E}|Framework\\Framework.csproj|solutionrelative:framework\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{755CC348-B1F9-4100-9F56-30692E48437E}|Framework\\Framework.csproj|C:\\Development\\Assessment_CT\\LibraryManagementSystem\\framework\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755CC348-B1F9-4100-9F56-30692E48437E}|Framework\\Framework.csproj|solutionrelative:framework\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{755CC348-B1F9-4100-9F56-30692E48437E}|Framework\\Framework.csproj|C:\\Development\\Assessment_CT\\LibraryManagementSystem\\framework\\repositories\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755CC348-B1F9-4100-9F56-30692E48437E}|Framework\\Framework.csproj|solutionrelative:framework\\repositories\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{755CC348-B1F9-4100-9F56-30692E48437E}|Framework\\Framework.csproj|C:\\Development\\Assessment_CT\\LibraryManagementSystem\\framework\\disposable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755CC348-B1F9-4100-9F56-30692E48437E}|Framework\\Framework.csproj|solutionrelative:framework\\disposable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8EA8A9-30C2-45A3-A322-6143DF1D3B24}|Entity\\Entity.csproj|C:\\Development\\Assessment_CT\\LibraryManagementSystem\\entity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD8EA8A9-30C2-45A3-A322-6143DF1D3B24}|Entity\\Entity.csproj|solutionrelative:entity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "LMS.Web\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "LMS.Web\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAmwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:55:12.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Global.asax.cs",
+              "RelativeDocumentMoniker": "LMS.Web\\Global.asax.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Global.asax.cs",
+              "RelativeToolTip": "LMS.Web\\Global.asax.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAWwB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:46:10.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookLogic.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Logic\\LMS.Logic\\BookLogic.cs",
+              "RelativeDocumentMoniker": "LMS.Logic\\LMS.Logic\\BookLogic.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Logic\\LMS.Logic\\BookLogic.cs",
+              "RelativeToolTip": "LMS.Logic\\LMS.Logic\\BookLogic.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAMwGsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:30:31.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LMS.Web\\Views\\Books\\Edit.cshtml",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "LMS.Web\\Views\\Books\\Edit.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T11:38:02.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookBO.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Business\\LMS.Business\\BookBO.cs",
+              "RelativeDocumentMoniker": "LMS.Business\\LMS.Business\\BookBO.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Business\\LMS.Business\\BookBO.cs",
+              "RelativeToolTip": "LMS.Business\\LMS.Business\\BookBO.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAMwD0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:36:45.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Service\\LMS.Service\\IBookService.cs",
+              "RelativeDocumentMoniker": "LMS.Service\\LMS.Service\\IBookService.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Service\\LMS.Service\\IBookService.cs",
+              "RelativeToolTip": "LMS.Service\\LMS.Service\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:43:00.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookModel.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Model\\LMS.Model\\BookModel.cs",
+              "RelativeDocumentMoniker": "LMS.Model\\LMS.Model\\BookModel.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Model\\LMS.Model\\BookModel.cs",
+              "RelativeToolTip": "LMS.Model\\LMS.Model\\BookModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T13:13:52.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DtoTools.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Common\\LMS.Common\\DtoTools.cs",
+              "RelativeDocumentMoniker": "LMS.Common\\LMS.Common\\DtoTools.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Common\\LMS.Common\\DtoTools.cs",
+              "RelativeToolTip": "LMS.Common\\LMS.Common\\DtoTools.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:34:16.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Views\\Books\\Delete.cshtml",
+              "RelativeDocumentMoniker": "LMS.Web\\Views\\Books\\Delete.cshtml",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Views\\Books\\Delete.cshtml",
+              "RelativeToolTip": "LMS.Web\\Views\\Books\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T11:39:15.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\packages.config",
+              "RelativeDocumentMoniker": "Entity\\packages.config",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\packages.config",
+              "RelativeToolTip": "Entity\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-05T10:51:24.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "LMS.Web\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "LMS.Web\\Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADkAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T11:22:32.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "LMS.Web\\Views\\Books\\Create.cshtml",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "LMS.Web\\Views\\Books\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T11:36:22.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LMSModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\LMSModel.edmx",
+              "RelativeDocumentMoniker": "Entity\\LMSModel.edmx",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\LMSModel.edmx [Diagram1]",
+              "RelativeToolTip": "Entity\\LMSModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-11-05T10:51:31.446Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\Book.cs",
+              "RelativeDocumentMoniker": "Entity\\Book.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\Book.cs",
+              "RelativeToolTip": "Entity\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T13:14:20.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Web.config",
+              "RelativeDocumentMoniker": "LMS.Web\\Web.config",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Web.config",
+              "RelativeToolTip": "LMS.Web\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-05T10:48:58.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LMSModel.Context.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\LMSModel.Context.cs",
+              "RelativeDocumentMoniker": "Entity\\LMSModel.Context.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\LMSModel.Context.cs",
+              "RelativeToolTip": "Entity\\LMSModel.Context.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAewBIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:00:31.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Framework\\GenericRepository.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\GenericRepository.cs",
+              "RelativeToolTip": "Framework\\GenericRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAawAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:39:01.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\App.config",
+              "RelativeDocumentMoniker": "Entity\\App.config",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\App.config",
+              "RelativeToolTip": "Entity\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-05T09:47:19.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LMS.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LMS.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T11:18:55.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Views\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "LMS.Web\\Views\\Books\\Details.cshtml",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\LMS.Web\\Views\\Books\\Details.cshtml",
+              "RelativeToolTip": "LMS.Web\\Views\\Books\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-05T11:38:42.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Framework\\UnitOfWork\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeToolTip": "Framework\\UnitOfWork\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T08:22:38.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Framework\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "Framework\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T08:23:36.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Framework\\GenericRepository.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\GenericRepository.cs",
+              "RelativeToolTip": "Framework\\GenericRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAawAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T08:04:47.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Framework\\Repositories\\BookRepository.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "Framework\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T07:49:11.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Framework\\IGenericRepository.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\IGenericRepository.cs",
+              "RelativeToolTip": "Framework\\IGenericRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T08:05:37.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\Repositories\\Interfaces\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "Framework\\Repositories\\Interfaces\\IBookRepository.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\Repositories\\Interfaces\\IBookRepository.cs",
+              "RelativeToolTip": "Framework\\Repositories\\Interfaces\\IBookRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T07:50:05.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Disposable.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\Disposable.cs",
+              "RelativeDocumentMoniker": "Framework\\Disposable.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Framework\\Disposable.cs",
+              "RelativeToolTip": "Framework\\Disposable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T08:06:49.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\Class1.cs",
+              "RelativeDocumentMoniker": "Entity\\Class1.cs",
+              "ToolTip": "C:\\Development\\Assessment_CT\\LibraryManagementSystem\\Entity\\Class1.cs",
+              "RelativeToolTip": "Entity\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T07:22:34.428Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

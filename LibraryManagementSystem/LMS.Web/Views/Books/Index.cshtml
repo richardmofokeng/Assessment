@@ -1,0 +1,62 @@
+﻿@model IEnumerable<LMS.Model.BookModel>
+@{
+    ViewData["Title"] = "Books";
+}
+
+<h1>Books</h1>
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <form method="get" asp-action="Index" class="row g-2">
+            <div class="col-auto">
+                <input class="form-control" type="text" name="searchTitle" value="@ViewData["SearchTitle"]" placeholder="Search by title" />
+            </div>
+            <div class="col-auto">
+                <button class="btn btn-primary" type="submit">Search Title</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-md-6">
+        <form method="get" asp-action="Index" class="row g-2 justify-content-end">
+            <div class="col-auto">
+                <input class="form-control" type="text" name="searchAuthor" value="@ViewData["SearchAuthor"]" placeholder="Search by author" />
+            </div>
+            <div class="col-auto">
+                <button class="btn btn-primary" type="submit">Search Author</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<p> 
+    <a id="btnAddBook" class="btn btn-success" href="~/Books/Create">Add New Book <i class="fa-plus-square-o fa"></i></a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Publication Year</th>
+            <th>ISBN</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.PublicationYear</td>
+                <td>@book.ISBN</td>
+                <td>
+                    @Html.ActionLink("Details", "Details", new { id = book.Id }, new { @class = "btn btn-sm btn-info" })
+                    @Html.ActionLink("Edit", "Edit", new { id = book.Id }, new { @class = "btn btn-sm btn-primary" })
+                    @Html.ActionLink("Delete", "Delete", new { id = book.Id }, new { @class = "btn btn-sm btn-danger" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

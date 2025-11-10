@@ -1,0 +1,6 @@
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Model\LMS.Model\bin\Debug\LMS.Model.dll
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Model\LMS.Model\bin\Debug\LMS.Model.pdb
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Model\LMS.Model\obj\Debug\LMS.Model.csproj.AssemblyReference.cache
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Model\LMS.Model\obj\Debug\LMS.Model.csproj.CoreCompileInputs.cache
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Model\LMS.Model\obj\Debug\LMS.Model.dll
+C:\Development\Assessment_CT\LibraryManagementSystem\LMS.Model\LMS.Model\obj\Debug\LMS.Model.pdb

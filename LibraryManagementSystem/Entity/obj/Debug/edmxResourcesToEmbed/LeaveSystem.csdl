@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LeaveModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="LeaveSystemConn" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Employees" EntityType="LeaveModel.Employee" />
+    <EntitySet Name="LeaveRequests" EntityType="LeaveModel.LeaveRequest" />
+    <EntitySet Name="LeaveStatus" EntityType="LeaveModel.LeaveStatu" />
+    <EntitySet Name="PublicHolidays" EntityType="LeaveModel.PublicHoliday" />
+    <EntitySet Name="Roles" EntityType="LeaveModel.Role" />
+    <EntitySet Name="TeamRoles" EntityType="LeaveModel.TeamRole" />
+    <EntitySet Name="Teams" EntityType="LeaveModel.Team" />
+    <AssociationSet Name="FK__Employees__TeamI__47DBAE45" Association="LeaveModel.FK__Employees__TeamI__47DBAE45">
+      <End Role="Team" EntitySet="Teams" />
+      <End Role="Employee" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LeaveRequ__Appro__5629CD9C" Association="LeaveModel.FK__LeaveRequ__Appro__5629CD9C">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="LeaveRequest" EntitySet="LeaveRequests" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TeamRoles__Emplo__4BAC3F29" Association="LeaveModel.FK__TeamRoles__Emplo__4BAC3F29">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="TeamRole" EntitySet="TeamRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LeaveRequ__Leave__571DF1D5" Association="LeaveModel.FK__LeaveRequ__Leave__571DF1D5">
+      <End Role="LeaveStatu" EntitySet="LeaveStatus" />
+      <End Role="LeaveRequest" EntitySet="LeaveRequests" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TeamRoles__RoleI__4CA06362" Association="LeaveModel.FK__TeamRoles__RoleI__4CA06362">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="TeamRole" EntitySet="TeamRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TeamRoles__TeamI__4AB81AF0" Association="LeaveModel.FK__TeamRoles__TeamI__4AB81AF0">
+      <End Role="Team" EntitySet="Teams" />
+      <End Role="TeamRole" EntitySet="TeamRoles" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FullName" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="EmployeeNumber" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EmailAddress" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="CellphoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TeamID" Type="Int32" />
+    <NavigationProperty Name="Team" Relationship="LeaveModel.FK__Employees__TeamI__47DBAE45" FromRole="Employee" ToRole="Team" />
+    <NavigationProperty Name="LeaveRequests" Relationship="LeaveModel.FK__LeaveRequ__Appro__5629CD9C" FromRole="Employee" ToRole="LeaveRequest" />
+    <NavigationProperty Name="TeamRoles" Relationship="LeaveModel.FK__TeamRoles__Emplo__4BAC3F29" FromRole="Employee" ToRole="TeamRole" />
+  </EntityType>
+  <EntityType Name="LeaveRequest">
+    <Key>
+      <PropertyRef Name="LeaveRequestID" />
+    </Key>
+    <Property Name="LeaveRequestID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Reason" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LeaveStatusID" Type="Int32" Nullable="false" />
+    <Property Name="ApprovedById" Type="Int32" />
+    <NavigationProperty Name="Employee" Relationship="LeaveModel.FK__LeaveRequ__Appro__5629CD9C" FromRole="LeaveRequest" ToRole="Employee" />
+    <NavigationProperty Name="LeaveStatu" Relationship="LeaveModel.FK__LeaveRequ__Leave__571DF1D5" FromRole="LeaveRequest" ToRole="LeaveStatu" />
+  </EntityType>
+  <EntityType Name="LeaveStatu">
+    <Key>
+      <PropertyRef Name="LeaveStatusID" />
+    </Key>
+    <Property Name="LeaveStatusID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LeaveStatus" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="LeaveRequests" Relationship="LeaveModel.FK__LeaveRequ__Leave__571DF1D5" FromRole="LeaveStatu" ToRole="LeaveRequest" />
+  </EntityType>
+  <EntityType Name="PublicHoliday">
+    <Key>
+      <PropertyRef Name="PublicHolidayID" />
+    </Key>
+    <Property Name="PublicHolidayID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HolidayDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="HolidayName" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TeamRoles" Relationship="LeaveModel.FK__TeamRoles__RoleI__4CA06362" FromRole="Role" ToRole="TeamRole" />
+  </EntityType>
+  <EntityType Name="TeamRole">
+    <Key>
+      <PropertyRef Name="TeamRoleID" />
+    </Key>
+    <Property Name="TeamRoleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TeamID" Type="Int32" Nullable="false" />
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+    <Property Name="RoleID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="LeaveModel.FK__TeamRoles__Emplo__4BAC3F29" FromRole="TeamRole" ToRole="Employee" />
+    <NavigationProperty Name="Role" Relationship="LeaveModel.FK__TeamRoles__RoleI__4CA06362" FromRole="TeamRole" ToRole="Role" />
+    <NavigationProperty Name="Team" Relationship="LeaveModel.FK__TeamRoles__TeamI__4AB81AF0" FromRole="TeamRole" ToRole="Team" />
+  </EntityType>
+  <EntityType Name="Team">
+    <Key>
+      <PropertyRef Name="TeamID" />
+    </Key>
+    <Property Name="TeamID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TeamName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Employees" Relationship="LeaveModel.FK__Employees__TeamI__47DBAE45" FromRole="Team" ToRole="Employee" />
+    <NavigationProperty Name="TeamRoles" Relationship="LeaveModel.FK__TeamRoles__TeamI__4AB81AF0" FromRole="Team" ToRole="TeamRole" />
+  </EntityType>
+  <Association Name="FK__Employees__TeamI__47DBAE45">
+    <End Type="LeaveModel.Team" Role="Team" Multiplicity="0..1" />
+    <End Type="LeaveModel.Employee" Role="Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Team">
+        <PropertyRef Name="TeamID" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="TeamID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LeaveRequ__Appro__5629CD9C">
+    <End Type="LeaveModel.Employee" Role="Employee" Multiplicity="0..1" />
+    <End Type="LeaveModel.LeaveRequest" Role="LeaveRequest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="LeaveRequest">
+        <PropertyRef Name="ApprovedById" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TeamRoles__Emplo__4BAC3F29">
+    <End Type="LeaveModel.Employee" Role="Employee" Multiplicity="1" />
+    <End Type="LeaveModel.TeamRole" Role="TeamRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="TeamRole">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LeaveRequ__Leave__571DF1D5">
+    <End Type="LeaveModel.LeaveStatu" Role="LeaveStatu" Multiplicity="1" />
+    <End Type="LeaveModel.LeaveRequest" Role="LeaveRequest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LeaveStatu">
+        <PropertyRef Name="LeaveStatusID" />
+      </Principal>
+      <Dependent Role="LeaveRequest">
+        <PropertyRef Name="LeaveStatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TeamRoles__RoleI__4CA06362">
+    <End Type="LeaveModel.Role" Role="Role" Multiplicity="1" />
+    <End Type="LeaveModel.TeamRole" Role="TeamRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="TeamRole">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TeamRoles__TeamI__4AB81AF0">
+    <End Type="LeaveModel.Team" Role="Team" Multiplicity="1" />
+    <End Type="LeaveModel.TeamRole" Role="TeamRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Team">
+        <PropertyRef Name="TeamID" />
+      </Principal>
+      <Dependent Role="TeamRole">
+        <PropertyRef Name="TeamID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
