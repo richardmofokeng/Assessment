@@ -1,0 +1,16 @@
+C:\Development\Assessment_CT\CustomerManagementSystem\LMS.Common\LMS.Common\bin\Debug\CMS.Common.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\LMS.Common\LMS.Common\bin\Debug\CMS.Common.pdb
+C:\Development\Assessment_CT\CustomerManagementSystem\LMS.Common\LMS.Common\obj\Debug\CMS.Common.csproj.CoreCompileInputs.cache
+C:\Development\Assessment_CT\CustomerManagementSystem\LMS.Common\LMS.Common\obj\Debug\CMS.Common.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\LMS.Common\LMS.Common\obj\Debug\CMS.Common.pdb
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Common\LMS.Common\bin\Debug\CMS.Common.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Common\LMS.Common\bin\Debug\CMS.Common.pdb
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Common\LMS.Common\obj\Debug\CMS.Common.csproj.AssemblyReference.cache
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Common\LMS.Common\obj\Debug\CMS.Common.csproj.CoreCompileInputs.cache
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Common\LMS.Common\obj\Debug\CMS.Common.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Common\LMS.Common\obj\Debug\CMS.Common.pdb
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Common\CMS.Common\bin\Debug\CMS.Common.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Common\CMS.Common\bin\Debug\CMS.Common.pdb
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Common\CMS.Common\obj\Debug\CMS.Common.csproj.CoreCompileInputs.cache
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Common\CMS.Common\obj\Debug\CMS.Common.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Common\CMS.Common\obj\Debug\CMS.Common.pdb

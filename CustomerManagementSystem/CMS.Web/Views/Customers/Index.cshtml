@@ -1,0 +1,60 @@
+﻿@model IEnumerable<CMS.Model.CustomerModel>
+@{
+    ViewData["Title"] = "Customers";
+}
+
+<h1>Customers</h1>
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <form method="get" asp-action="Index" class="row g-2">
+            <div class="col-auto">
+                <input class="form-control" type="text" name="searchName" value="@ViewData["SearchName"]" placeholder="Search by Name" />
+            </div>
+            <div class="col-auto">
+                <button class="btn btn-primary" type="submit">Search Name</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-md-6">
+        <form method="get" asp-action="Index" class="row g-2 justify-content-end">
+            <div class="col-auto">
+                <input class="form-control" type="text" name="searchEmail" value="@ViewData["SearchEmail"]" placeholder="Search by email" />
+            </div>
+            <div class="col-auto">
+                <button class="btn btn-primary" type="submit">Search Email</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<p> 
+    <a id="btnAddCustomer" class="btn btn-success" href="~/Customers/Create">Add New Customer <i class="fa-plus-square-o fa"></i></a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone Number</th> 
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Customer in Model)
+        {
+            <tr>
+                <td>@Customer.Name</td>
+                <td>@Customer.Email</td>
+                <td>@Customer.PhoneNumber</td> 
+                <td>
+                    @Html.ActionLink("Details", "Details", new { id = Customer.CustomerID }, new { @class = "btn btn-sm btn-info" })
+                    @Html.ActionLink("Edit", "Edit", new { id = Customer.CustomerID }, new { @class = "btn btn-sm btn-primary" })
+                    @Html.ActionLink("Delete", "Delete", new { id = Customer.CustomerID }, new { @class = "btn btn-sm btn-danger" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

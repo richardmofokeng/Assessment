@@ -1,0 +1,27 @@
+﻿@model LMS.Model.BookModel
+
+@{
+    ViewBag.Title = "Delete Book";
+}
+
+<h2>Delete Book</h2>
+
+<div class="alert alert-warning">
+    Are you sure you want to delete the following book?
+</div>
+
+<div class="mb-3">
+    <strong>Title:</strong> @Model.Title
+</div>
+<div class="mb-3">
+    <strong>Author:</strong> @Model.Author
+</div>
+
+@using (Html.BeginForm("Delete", "Books", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(m => m.Id)
+
+    <button type="submit" class="btn btn-danger">Delete</button>
+    @Html.ActionLink("Cancel", "Index", null, new { @class = "btn btn-secondary ms-2" })
+}

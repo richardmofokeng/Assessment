@@ -1,0 +1,27 @@
+﻿@model CMS.Model.CustomerModel
+
+@{
+    ViewBag.Title = "Delete Customer";
+}
+
+<h2>Delete Customer</h2>
+
+<div class="alert alert-warning">
+    Are you sure you want to delete the following Customer?
+</div>
+
+<div class="mb-3">
+    <strong>Name:</strong> @Model.Name
+</div>
+<div class="mb-3">
+    <strong>Email:</strong> @Model.Email
+</div>
+
+@using (Html.BeginForm("Delete", "Customers", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(m => m.Id)
+
+    <button type="submit" class="btn btn-danger">Delete</button>
+    @Html.ActionLink("Cancel", "Index", null, new { @class = "btn btn-secondary ms-2" })
+}

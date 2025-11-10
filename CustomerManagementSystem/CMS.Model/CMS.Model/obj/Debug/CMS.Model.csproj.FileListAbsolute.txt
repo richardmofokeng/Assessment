@@ -1,0 +1,10 @@
+C:\Development\Assessment_CT\CustomerManagementSystem\LMS.Model\LMS.Model\bin\Debug\CMS.Model.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\LMS.Model\LMS.Model\bin\Debug\CMS.Model.pdb
+C:\Development\Assessment_CT\CustomerManagementSystem\LMS.Model\LMS.Model\obj\Debug\CMS.Model.csproj.CoreCompileInputs.cache
+C:\Development\Assessment_CT\CustomerManagementSystem\LMS.Model\LMS.Model\obj\Debug\CMS.Model.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\LMS.Model\LMS.Model\obj\Debug\CMS.Model.pdb
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Model\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Model\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Model\CMS.Model\obj\Debug\CMS.Model.csproj.CoreCompileInputs.cache
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Model\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Model\CMS.Model\obj\Debug\CMS.Model.pdb

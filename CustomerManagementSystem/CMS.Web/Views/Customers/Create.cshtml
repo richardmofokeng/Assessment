@@ -1,0 +1,35 @@
+﻿@model CMS.Model.CustomerModel
+@{
+    ViewData["Title"] = "Add Customer";
+}
+
+<h1>Add Customer</h1>
+
+
+@using (Html.BeginForm("Create", "Customers", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Name, new { @class = "form-label" })
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Email, new { @class = "form-label" })
+        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.PhoneNumber, new { @class = "form-label" })
+        @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.PhoneNumber, "", new { @class = "text-danger" })
+    </div>
+
+     
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    @Html.ActionLink("Back", "Index", null, new { @class = "btn btn-secondary" })
+}
+

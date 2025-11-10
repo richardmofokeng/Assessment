@@ -1,0 +1,11 @@
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Entity\bin\Debug\CMS.Entity.dll.config
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Entity\bin\Debug\CMS.Entity.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Entity\bin\Debug\CMS.Entity.pdb
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Entity\bin\Debug\EntityFramework.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Entity\bin\Debug\EntityFramework.xml
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Entity\obj\Debug\CMS.Entity.csproj.CoreCompileInputs.cache
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Entity\obj\Debug\CMS.Entity.csproj.CopyComplete
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Entity\obj\Debug\CMS.Entity.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\CMS.Entity\obj\Debug\CMS.Entity.pdb

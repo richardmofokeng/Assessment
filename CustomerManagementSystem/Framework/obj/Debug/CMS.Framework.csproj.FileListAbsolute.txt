@@ -1,0 +1,15 @@
+C:\Development\Assessment_CT\CustomerManagementSystem\Framework\bin\Debug\LibrarySystem.Framework.dll.config
+C:\Development\Assessment_CT\CustomerManagementSystem\Framework\bin\Debug\LibrarySystem.Framework.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\Framework\bin\Debug\LibrarySystem.Framework.pdb
+C:\Development\Assessment_CT\CustomerManagementSystem\Framework\bin\Debug\CMS.Entity.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\Framework\bin\Debug\EntityFramework.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\Framework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\Framework\bin\Debug\CMS.Entity.pdb
+C:\Development\Assessment_CT\CustomerManagementSystem\Framework\bin\Debug\CMS.Entity.dll.config
+C:\Development\Assessment_CT\CustomerManagementSystem\Framework\bin\Debug\EntityFramework.xml
+C:\Development\Assessment_CT\CustomerManagementSystem\Framework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Development\Assessment_CT\CustomerManagementSystem\Framework\obj\Debug\CMS.Framework.csproj.AssemblyReference.cache
+C:\Development\Assessment_CT\CustomerManagementSystem\Framework\obj\Debug\CMS.Framework.csproj.CoreCompileInputs.cache
+C:\Development\Assessment_CT\CustomerManagementSystem\Framework\obj\Debug\CMS.Framework.csproj.CopyComplete
+C:\Development\Assessment_CT\CustomerManagementSystem\Framework\obj\Debug\LibrarySystem.Framework.dll
+C:\Development\Assessment_CT\CustomerManagementSystem\Framework\obj\Debug\LibrarySystem.Framework.pdb
